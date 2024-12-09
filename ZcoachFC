@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZcoachFC - 3D Football Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.130.0/build/three.min.js"></script> <!-- Include Three.js for 3D -->
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <h1>ZcoachFC</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#story-mode">Story Mode</a></li>
+        <li><a href="#pvp-mode">PvP Mode</a></li>
+        <li><a href="#offline-mode">Offline Mode</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="story-mode">
+      <h2>Story Mode</h2>
+      <p>Follow the journey of a young football prodigy. Lead them from local competitions to global fame!</p>
+      <button id="start-story">Start Story Mode</button>
+      <!-- Game Canvas or Interactive Elements for Story Mode will go here -->
+    </section>
+
+    <section id="pvp-mode">
+      <h2>Online PvP Mode</h2>
+      <p>Challenge friends and players around the world in real-time football matches.</p>
+      <button id="start-pvp">Play PvP</button>
+      <!-- Multiplayer and matchmaking features will be implemented here -->
+    </section>
+
+    <section id="offline-mode">
+      <h2>Offline Mode</h2>
+      <p>Play against AI in various challenges, tournaments, and story-driven matches.</p>
+      <button id="start-offline">Play Offline</button>
+      <!-- AI vs Player game logic goes here -->
+    </section>
+
+    <section id="about">
+      <h2>About ZcoachFC</h2>
+      <p>ZcoachFC is an immersive 3D football game that blends story-driven gameplay with competitive football action. Experience both offline and online modes!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 ZcoachFC. All rights reserved.</p>
+  </footer>
+
+  <script src="game.js"></script> <!-- Custom game logic and interactions -->
+</body>
+</html>
